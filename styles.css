@@ -1034,11 +1034,11 @@ img {
     }
     
    .timeline-content {
-        border-left: 6px solid var(--accent);
+        border-left: 4px solid var(--accent);
     }
     
     .left .timeline-content {
-        border-left: 0;
+        border-left: 4px solid var(--accent);
     }
 }
 
