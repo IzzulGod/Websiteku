@@ -1050,7 +1050,7 @@ img {
 }
 
     .timeline-item::after {
-        left:-7px;
+        left:-14px;
     }
 
     .left {
