@@ -1032,6 +1032,34 @@ img {
         flex: 0 0 65%;
         max-width: 65%;
     }
+    .timeline::after {
+        left: 1px;
+    }
+
+    .timeline-item {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+}
+    .timeline-content {
+    padding: 1rem;
+    border-left: 4px solid var(--accent);
+    background-color: var(--bg-secondary);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+    .timeline-item::after {
+        left:-7px;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        left: 0%;
+    }
     
    .timeline-content {
         border-left: 4px solid var(--accent);
