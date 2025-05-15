@@ -1660,3 +1660,11 @@ textarea.form-control:not(:placeholder-shown) ~ .form-label {
 .biodata-list {
     animation: fadeInUp 0.8s ease;
 }
+
+#contact::before {
+    display: none !important;
+}
+
+#contact {
+    padding-bottom: 1rem !important;
+}
